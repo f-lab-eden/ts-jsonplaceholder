@@ -1,19 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Users from './pages/Users';
+import UserInfoContainer from '../views/containers/UserInfoContainer';
 
-function App() {
-
+const Users = () => {
     return (
         <Container>
-            <Users/>
+            <UserInfoContainer/>
         </Container>
-    );
+    )
 }
 
 const Container = styled.div`
 
 `;
-
-export default App;
+export default Users;
