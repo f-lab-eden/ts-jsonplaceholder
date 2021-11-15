@@ -56,4 +56,19 @@ export const GlobalStyle = createGlobalStyle`
     border-spacing: 0;
   }
 
+
+  * {
+    box-sizing: border-box;
+  }
+
+  a{
+      text-decoration : none;
+      color: #111;
+  }
+
+  img {
+      vertial-align : top;
+      max-width : 100%;
+  }
+
 `

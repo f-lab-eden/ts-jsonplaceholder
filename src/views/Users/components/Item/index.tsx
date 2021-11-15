@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {IUserItem} from "../../../interfaces/users.interface";
+import {IUserItem} from '../../../../interfaces/users.interface';
 
 const Item = ({item}: IUserItem) => {
+
     return (
         <Container>
             <ItemBox>

@@ -1,12 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import HomeContainer from '../views/Home/containers/HomeContainer';
 
-import UserInfoContainer from '../views/Users/containers/UserInfoContainer';
-
-const Users = () => {
+const Home = () => {
     return (
         <Container>
-            <UserInfoContainer/>
+            <HomeContainer/>
         </Container>
     )
 }
@@ -14,4 +13,4 @@ const Users = () => {
 const Container = styled.div`
 
 `;
-export default Users;
+export default Home;

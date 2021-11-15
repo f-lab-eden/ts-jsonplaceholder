@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Item from '../Item';
-import {IUserItemData} from "../../../interfaces/users.interface";
+import {IUserItemData} from "../../../../interfaces/users.interface";
 
 interface Props {
     data: IUserItemData[]
